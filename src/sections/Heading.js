@@ -82,7 +82,7 @@ const Styles = styled(motion.div)`
     margin-top: 40px;
   }
   .btn {
-    background: #4ea8de;
+    background: #0d57d4;
     cursor: pointer;
     display: flex;
     flex-direction: row;
