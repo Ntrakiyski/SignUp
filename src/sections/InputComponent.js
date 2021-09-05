@@ -8,8 +8,6 @@ export const InputComponent = ({ modal, setModal, value, setValue }) => {
     e.preventDefault();
     setModal(!modal);
 
-    /*
-    Commented out until site goes live and further improvements are made to the API
     
     var call = $.ajax({
       url: "https://starathletepromo.azurewebsites.net/api/Service.svc/saveform",
@@ -17,13 +15,13 @@ export const InputComponent = ({ modal, setModal, value, setValue }) => {
       headers: { "Accept": "application/json; odata=verbose", "Content-Type": "application/json" },
       async: false,
       crossDomain: true,
-      data: '{ "user_email" : "' + value + '"}',
+      data: '{ "user_email" : "' + value + '", "user_type" : "user"}',
       dataType: 'json',
       success: (response) => {
         console.log("Response: " + JSON.stringify(response));
       },
     }).responseJSON;
-    */
+    
   }
   return (
     <form className="input" onSubmit={SubmitMail}>

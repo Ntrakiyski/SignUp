@@ -35,7 +35,7 @@ export var data = {
   //Success texts
   succHeader: "Thank you,",
   succParagraph:
-    "You are one of the first members in our platfor. We will be keeping you up to date with monthly emails.",
+    "You are one of the first members on our platform. We will be keeping you up to date with monthly emails.",
 
   //Why sign up now
   whyNowTitle: "Why subscirbe now?",
